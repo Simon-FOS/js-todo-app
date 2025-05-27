@@ -1,3 +1,15 @@
+:root {
+    --bg-primary: rgb(12, 100, 232);
+    --color-primary: rgb(0, 255, 255);
+    --white: white;
+    --white: black;
+    --white: orange;
+
+
+
+}
+
+
 main {
     height: 100vh;
     max-height: 100vh;
