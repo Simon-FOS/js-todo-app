@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <main class="d-flex flex nowarp">
+    <main class="d-flex flex nowarp" style="position: relative;">
         <div class="d-flex flex-column flex-shrink-0 p-3" style="width: 280px; background-color: var(--bg-primary);">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <i class="fa-solid fa-2x fa-thumbtack mx-2"></i>
@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link text-white">
+                    <a href="create_task.html" class="nav-link text-white">
                         <i class="fas fa-edit"></i>
                         Creat New Task
                     </a>
@@ -58,15 +58,15 @@
                 </ul>
             </div>
         </div>
-        <section class=" container-fluid"
-            style="background: linear-gradient(rgba(47, 47, 237, 0.6), rgba(16, 26, 210, 0.6)), url(static/img/bg.webp); background-repeat: no-repeat; background-size: cover; background-position: top; color: white;">
-            <div class="container-fluid">
+        <section class=" container-fluid p-0 m-0 ">
+            <div class="container-fluid m-0 "
+                style="background: linear-gradient(rgba(47, 47, 237, 0.6), rgba(16, 26, 210, 0.6)), url(static/img/bg.webp); background-repeat: no-repeat; background-size: cover; background-position: center; color: white;">
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-8 py-5">
                         <h1 class="fw-light">Your Things</h1>
                         <p>Sept 5, 2025</p>
                     </div>
-                    <div class="col-md-4 d-grid"
+                    <div class="col-md-4 d-grid py-5"
                         style="background: linear-gradient(rgba(88, 88, 224, 0.6), rgba(138, 191, 251, 0.6))">
                         <div class="d-flex">
                             <div class="d-grid text-end container">
@@ -86,27 +86,84 @@
                 </div>
             </div>
 
-        </section>
+            <section class="mt-5">
+                <div class="container">
+                    <div class="mb-4">
+                        <h6 class="text-muted">INBOX</h6>
+                    </div>
+                    <div>
+                        <ul class="list-style-none px-0">
+                            <li class="row container align-items-start border-bottom mt-3">
+                                <div class="col-1 border rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-music  p-1 text-center " style="color: var(--bg-primary);"></i>
+                                </div>
 
-        <section>
-            <div class="container">
-                <div>
-                    <h6>INBOX</h6>
+                                <div class="d-grid col-10">
+                                    <h5>Final Design Delivery</h5>
+                                    <p>Lorem ipsum dolor...</p>
+                                </div>
+                                <small class="col-1">9am</small>
+                            </li>
+                            <li class="row container align-items-start border-bottom mt-3">
+                                <div class="col-1 border rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-music  p-1 text-center " style="color: var(--bg-primary);"></i>
+                                </div>
+
+                                <div class="d-grid col-10">
+                                    <h5>Final Design Delivery</h5>
+                                    <p>Lorem ipsum dolor...</p>
+                                </div>
+                                <small class="col-1">9am</small>
+                            </li>
+                            <li class="row container align-items-start border-bottom mt-3">
+                                <div class="col-1 border rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-music  p-1 text-center " style="color: var(--bg-primary);"></i>
+                                </div>
+
+                                <div class="d-grid col-10">
+                                    <h5>Final Design Delivery</h5>
+                                    <p>Lorem ipsum dolor...</p>
+                                </div>
+                                <small class="col-1">9am</small>
+                            </li>
+                            <li class="row container align-items-start border-bottom mt-3">
+                                <div class="col-1 border rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-music  p-1 text-center " style="color: var(--bg-primary);"></i>
+                                </div>
+
+                                <div class="d-grid col-10">
+                                    <h5>Final Design Delivery</h5>
+                                    <p>Lorem ipsum dolor...</p>
+                                </div>
+                                <small class="col-1">9am</small>
+                            </li>
+                            <li class="row container align-items-start border-bottom mt-3">
+                                <div class="col-1 border rounded-circle d-flex justify-content-center align-items-center"
+                                    style="width: 40px; height: 40px;">
+                                    <i class="fas fa-music  p-1 text-center " style="color: var(--bg-primary);"></i>
+                                </div>
+
+                                <div class="d-grid col-10">
+                                    <h5>Final Design Delivery</h5>
+                                    <p>Lorem ipsum dolor...</p>
+                                </div>
+                                <small class="col-1">9am</small>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul class="list-style-none">
-                        <li class="d-flex">
-                            <i class="fas fa-music border rounded-circle"></i>
-                            <div class="d-grid">
-                                <h5>Final Design Delivery</h5>
-                                <p>Lorem ipsum dolor...</p>
-                            </div>
-                            <small>9am</small>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </section>
+
         </section>
+        <a href="create_task.html" class="rounded-circle d-flex align-items-center justify-content-center"
+            style="width: 50px; height: 50px; color: white; background-color: var(--bg-primary); position: fixed; z-index: 999; top: 80vh; left: 90vw;">
+            <i class="fas fa-plus"></i>
+        </a>
+
     </main>
 
     <!--JAVASCRIP-->
